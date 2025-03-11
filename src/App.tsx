@@ -3,7 +3,7 @@ import { Building2, Camera, Home, Mail, Menu, Phone, X } from 'lucide-react';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState('ru');
 
   const translations = {
     en: {
